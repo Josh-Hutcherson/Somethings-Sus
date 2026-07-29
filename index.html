@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Grind</title>
+    
     <style>
         body {
             background-color: black;
+        }
+        #presentImage {
+            display: none; 
+        }
+        button {
+            background-color: maroon;
         }
     </style>
 </head>
@@ -33,19 +40,7 @@
     <img id="presentImage" alt="Present" src="" width="200">
     <img id="houseImage" src="house.png" alt="House" style="display: none;">
     <audio id="specialSong" src="whistle.mp3"></audio>
-<style>
-    
-        #presentImage {
-            display: none; 
-        }
-         body {
-        background-color: crimson;
-    }
-    button {
-background-color: maroon;
-    }
-            
-</style>
+
     <script>
         let score = 0;
         let houses = 0;
